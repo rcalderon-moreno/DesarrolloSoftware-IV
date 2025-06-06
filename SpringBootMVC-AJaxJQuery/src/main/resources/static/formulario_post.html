@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Enviar form por POST</title>
+  </head>
+  <body>
+      <p>
+      <div>
+        <la>Opci&oacute;n enviar formulario por POST</la>
+          <p>Para /ingresar</p>
+        <div>
+            <form action="/ingresar" method="post">
+                <label for="nombres2"></label>
+                <input type="text" name="nombres" id="nombres2" placeholder="Nombres">
+                <label for="apellidos2"></label>
+                <input type="text" name="apellidos" id="apellidos2" placeholder="Apellidos">
+                <input type="submit" value="Enviar" >
+
+            </form>
+        </div>
+         <p>Para /ingresar_detalle</p>
+        <div>
+          <form action="/ingresar_detalle" method="post">
+            <label for="nombres1"></label>
+            <input type="text" name="nombres" id="nombres1" placeholder="Nombres">
+            <label for="apellidos1"></label>
+            <input type="text" name="apellidos" id="apellidos1" placeholder="Apellidos">
+            <input type="submit" value="Enviar" >
+
+          </form>
+        </div>
+
+      </div>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"> </script>
+        <script src="./js/peticiones_jquery.js"> </script>
+        <title>El primer documento HTML</title>
+
+    </head>
+
+    <body>
+        <p>Peticiones GET y POST con Jquery</p>
+        <div>
+            <p>Obtener resultado por GET</p>
+            <button id="cargar"  onclick="jquery1()">Cargar datos</button>
+            <p></p>
+        </div>
+
+        <p></p>
+
+        <div id="resultado"> </div>
+
+        <p>Enviar petici&oacute;n POST</p>
+
+        <form id="miFormulario" >
+            <input type="text" name="nombre" placeholder="Tu nombre...">
+            <input type="email" name="email" placeholder="Tu email...">
+            <button type="submit" ONCLICK="jquery2()">Enviar</button>
+        </form>
+
+        <div id="respuesta"></div>
+
+        <div>
+            <p>
+            <p>
+                <a href="/" >   Regresar...</a>
+        </div>
+    </body>
+</html>

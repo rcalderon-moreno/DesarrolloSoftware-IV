@@ -1,0 +1,21 @@
+
+    <html lang="es">
+        <head>
+            <title>TODO supply a title</title>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        </head>
+        <body>
+             <div class="starter-template">
+                <h1>Spring Boot Web MVC</h1>
+                <h2>Curso de Desarrollo de software</h2>
+                <h2>
+                    <span th:text="'Bienvenido ' + ${mensaje}"></span>
+                </h2>
+            </div>
+            <ol>
+                <li th:each="Actividades : ${datos}" th:text="${datos}"></li>
+            </ol>
+            <a href="/index.html">Inicio.</a>
+        </body>
+    </html>

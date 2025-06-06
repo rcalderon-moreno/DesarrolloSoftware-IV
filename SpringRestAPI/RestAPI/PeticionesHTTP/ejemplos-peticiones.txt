@@ -1,0 +1,30 @@
+PUT  http://localhost:9090/gestion/actualizar/1
+Content-Type: application/json
+
+{
+  "idCliente": 1,
+  "razonSocial": "1111111111111111111111",
+  "email": "1111@empresasas.com"
+
+}
+
+###
+POST http://localhost:9090/gestion/clientes
+Content-Type: application/json
+
+{
+  "idCliente": 1,
+  "razonSocial": "tecno sas",
+  "email": "tecno@empresasas.com"
+
+}
+
+###
+GET http://localhost:9090/gestion/clientes
+Accept: application/json
+
+###
+GET http://localhost:9090/gestion/misclientes
+Accept: application/json
+
+###
